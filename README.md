@@ -2,6 +2,9 @@
 ## for Quant Finance
 
 ### Day 1
-Interest Rate calculator where it takes in Principal Amount, Rate of Interest and No. of years of investment. Gives out the interest gained at the end. \n
-As I did this right after setting up c++, I made a tiny mistake while selecting compiler I selected gcc and that caused an error. \n
-Found out that **Calling gcc with a cpp file will result in compiling the file as c++ source code. But linking the objects later will fail if standard c++ libs are required.**
+
+- Built an **Interest Rate Calculator** that takes in Principal Amount, Rate of Interest, and Number of Years of Investment. It outputs the interest gained at the end.
+
+- Made a tiny mistake while setting up C++: accidentally selected the `gcc` compiler instead of `g++`.
+
+- Found out that **calling `gcc` with a `.cpp` file will compile it as C++ source**, but linking will fail if standard C++ libraries are required.
