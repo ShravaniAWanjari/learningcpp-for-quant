@@ -15,4 +15,6 @@
 
 `code 2`
 
-- 
+- Second code contained if and else statements which determined if a student passed or not based on one input variable `mark`.
+
+- `note` **Do NOT** use file names with `-` such as `pass-fail.cpp`. Caused unneccessary errors with the exe file generated. Use `_` instead
